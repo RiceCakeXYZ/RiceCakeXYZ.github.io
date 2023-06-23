@@ -1,0 +1,57 @@
+.body{
+    background-color: aquamarine;
+   
+
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.right {
+    padding-left: 100px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.items {
+    width: 120px;
+    height: 60px;
+    margin: 5px;
+    background-color: yellow;
+}
+
+.parent {
+    background-color: rgb(137, 137, 189);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.a{
+    text-align: center;
+}

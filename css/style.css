@@ -1,14 +1,25 @@
-.body{
+body{
     background-color: aquamarine;
+
+    font-family: 'DotGothic16', sans-serif;
    
 
 }
 
-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+h1{
+    color: fuchsia;
+}
+.container {
+   background-color: ;
+}
+.profile{
+    background-color: black;
+}
+.description{
+    color: rgb(221, 158, 41);
+}
+.name{
+    color: red;
 }
 
 .profile {
@@ -44,7 +55,7 @@ container {
 }
 
 .parent {
-    background-color: rgb(137, 137, 189);
+    background-color: royalblue;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
